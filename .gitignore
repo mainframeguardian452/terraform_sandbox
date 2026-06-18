@@ -1,0 +1,12 @@
+# Terraform state — never commit
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Credentials — never commit
+terraform.tfvars
+network.txt
+
+# macOS
+.DS_Store
